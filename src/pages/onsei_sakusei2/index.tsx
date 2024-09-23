@@ -87,7 +87,7 @@ const Onsei_sakusei2 = () => {
       mediaRecorderRef.current.state !== "inactive"
     ) {
       mediaRecorderRef.current.stop();
-      console.log("録音を停止しました");
+      console.log("録音を停止しました。");
     }
 
     // 動画を停止
